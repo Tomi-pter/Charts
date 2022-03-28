@@ -33,7 +33,7 @@ export const newData = {
 function BarChart() {
   return (
     <>
-      <label htmlFor="barChart">Most loved languages by programmers (%)</label>
+      <label htmlFor="barChart">Most used languages by programmers (%)</label>
       <Bar id="barChart" data={newData} />
     </>
   );

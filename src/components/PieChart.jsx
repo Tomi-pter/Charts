@@ -7,7 +7,7 @@ Chart.register(...registerables);
 function PieChart() {
   return (
     <>
-      <label htmlFor="pie">Most loved languages by programmers (%)</label>
+      <label htmlFor="pie">Most used languages by programmers (%)</label>
       <Pie data={newData} id="pie" />
     </>
   );

@@ -17,7 +17,7 @@ function Table() {
       <table>
         <tr>
           <th>Name</th>
-          <th>Loved by programmers (%)</th>
+          <th>Used by programmers (%)</th>
         </tr>
         {data.map((val, key) => {
           return (
